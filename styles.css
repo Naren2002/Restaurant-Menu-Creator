@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bs-body-bg);
+}
+
+.heading{
+    color: #FF7777;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.item{
+    position: relative;
+    /* background-color: blue; */
+    margin: 50px;
+    background-position: center;
+    text-align: center;
+    color: white;
+    /* padding-bottom: 100%; */
+    /* overflow: hidden; */
+}
+
+.item:hover{
+    cursor: pointer;
+}
+
+.image{
+    position: relative;
+    padding-bottom: 100%;
+    overflow: hidden;
+    z-index: 0;
+    border-radius: 10%;
+    transition: opacity 0.5s;
+}
+
+.image:hover{
+    opacity: 0.5;
+}
+
+/* .item:after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+} */
+
+.item-text{
+    /* position: absolute;
+    top: 10%;
+    left: 0;
+    margin: auto; */
+    color: #BB371A;
+    background: rgba(255, 255, 255, 0);
+    z-index:1;
+    font-weight: 400;
+    /* text-shadow: 0 0 3px black; */
+}
+
+/* .item-1{
+    background-image: url("https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/ybbj45eubkzg8kpbzwfu");
+} */
+
+/* .item-2{
+    background-image: url("https://vaya.in/recipes/wp-content/uploads/2019/06/Chole-Bhature.jpg");
+} */
+
+img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* .background-food-img{
+    height: 200px;
+    background-image: url("https://www.thespruceeats.com/thmb/MFzL6KJj3FshM6R52vHX6HAwoXY=/6015x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/authentic-butter-chicken-1957382-Hero-5b61b398c9e77c0050160f54.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+.list{
+    position: relative;
+}
+
+.list-img img{
+    padding: 20px;
+    position:relative;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20%;
+    max-height: 250px;
+}
+
+.list-cont{
+    padding: 20px;
+}
+
+.list-item{
+    /* background-color: #de1d54; */
+    color: black;
+}
+
+.list-item-name{
+    font-weight: 400;
+}

@@ -1,0 +1,18 @@
+input{
+    color: #BB371A;
+    background: inherit;
+    padding: 2px;
+    padding-left: 5px;
+    border-radius: 4px;
+    margin: 5px;
+    border: 0;
+}
+
+input:focus {
+    outline: none;
+    border: 0;
+}
+
+input:hover {
+    cursor:default;
+}
